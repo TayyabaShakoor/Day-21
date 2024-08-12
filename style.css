@@ -1,0 +1,273 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main-container {
+    border :1px solid black;
+    height:815px;
+    width:350px;
+    margin: 30px 450px;
+    display: flex;
+    flex-direction: column;
+    
+}
+header {
+    background-color: black;
+    color:white;
+    height: 25px;
+    width:350px;
+    display: flex;
+}
+
+.first-header   p {
+    font-size: 13px;
+    margin: 4px 20px;
+}
+.right-side {
+    display: flex;
+}
+.right-side  img {
+    height: 15px;
+    margin-top: 3px;
+    margin-bottom: 2px;
+    margin-left: 160px;
+}
+.right-side span  img {
+    height: 15px;
+    margin-top: 3px;
+    margin-bottom: 2px;
+    margin-left: 2px;
+}
+header .right-side p {
+    font-size: 11px;
+    color:white;
+    margin: 4px 2px;
+}
+.sec-header header {
+    background-color: rgb(59, 58, 58);
+    color:white;
+    height: 50px;
+    width:350px;
+    display: flex;
+    cursor:pointer;
+}
+.sec-header header p {
+    font-size: 20px;
+    margin: 12px;
+}
+.sec-header header .three-logos {
+    margin-left:110px;
+}
+.sec-header header .three-logos img {
+    margin:11px 2px;
+    height: 25px;
+    width:25px;
+}
+.chats-container {
+    height:640px;
+    display: flex;
+    flex-direction: column;
+}
+.archieve {
+    height:70px;
+    display: flex;
+    background-color:rgb(36, 33, 33);
+    color:white;
+}
+.archieve img {
+    margin:20px;
+    height: 25px;
+    width:25px; 
+}
+.archieve p {
+    margin:25px 3px;
+}
+.archieve span p {
+    color:rgb(6, 180, 6);
+    margin-left:180px;
+    margin-top: 25px;
+    font-size: 15px;
+}
+.hmza-sir {
+    height:70px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(36, 33, 33);
+   
+}
+.dp {
+    margin: 10px;
+}
+.dp img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.name {
+    display: flex;
+    flex-direction: column;
+    margin-top:15px;
+    color:white;
+  }
+.title-date {
+    display: flex;
+    align-items: center;
+  }
+.date {
+    margin-left: 70px;
+    font-size: 12px;
+    color:rgba(224, 217, 217, 0.836);
+  }
+.chat {
+    display: flex;
+    align-items: center;
+  }
+.chat p {
+    font-size: 14px;
+    color:rgba(224, 217, 217, 0.836);
+  }
+  .chat img {
+    width: 15px;
+    height: 15px;
+    margin-left: 120px;
+    padding-top: 3px;
+  }
+  .tayyaba {
+    height:70px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(36, 33, 33);
+  }
+  .tayyaba .date {
+    margin-left: 95px;
+  }
+  .momin-sir {
+    height:70px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(36, 33, 33);
+  }
+  .chatm {
+    display: flex;
+    align-items: center;
+  }
+.chatm p {
+    font-size: 14px;
+    color:rgba(224, 217, 217, 0.836);
+  }
+
+ 
+  .chatm span img {
+    height:12px;
+    width: 12px;
+    margin-right: 7px;
+    margin-top: 6px;
+
+  }
+  .momin-sir .date {
+   
+    margin-left: 121px;
+  }
+  .daniyal {
+    height:70px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(36, 33, 33);
+
+  }
+  .daniyal .date {
+    margin-left:122px ;
+  }
+  .brothers {
+    height:70px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(36, 33, 33);
+  }
+  .brothers .date {
+  margin-left:150px ;
+}
+.chatb {
+    display: flex;
+    align-items: center;
+  }
+.chatb p {
+    font-size: 14px;
+    color:rgba(224, 217, 217, 0.836);
+  }
+  .chatb  img {
+    height:12px;
+    width: 18px;
+    margin-top: 6px;
+  }
+  .qasim {
+    height:80px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(36, 33, 33);
+  }
+  .chatq {
+    display: flex;
+    align-items: center;
+  }
+.chatq p {
+    font-size: 14px;
+    color:rgba(224, 217, 217, 0.836);
+  }
+  .chatq  img {
+    height:18px;
+    width: 18px;
+    margin-top: 6px;
+    padding-right: 2px;
+  }
+  .qasim .date {
+    margin-left:123px ;
+  }
+  .footer {
+    height: 100px;
+    background-color: rgb(44, 43, 43);
+   display: flex;
+   cursor: pointer;
+  }
+  .im {
+    display: flex;
+    flex-direction: row;
+  }
+  .im img {
+ 
+    height: 25px;
+    width: 25px;
+    margin-left:37px;
+    margin-right: 20px;
+    margin-top: 20px;
+  }
+  .nam {
+    display: flex;
+    flex-direction: column;
+
+  }
+  .nam p{
+    color:rgb(189, 185, 185);
+    margin-left:29px;
+    padding-top: 5px;
+  }
+  .footer {
+    position: relative;
+  }
+  .footer::after {
+    content: "";
+    position: absolute;
+    top: 90%;
+    right: 33%;
+    transform: translateY(-50%);
+    height: 4px;
+    width: 130px;
+    background-color: #aaa7a7;
+  }
+
+
+  
+
+    
